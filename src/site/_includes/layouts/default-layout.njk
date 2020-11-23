@@ -1,0 +1,15 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>{{site.title}}</title>
+
+        <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
+    </head>
+    <body>
+        {# {% include "../template-parts/_header.njk" %} #}
+        
+        {# {% include "../template-parts/_footer.njk" %} #}
+        {{content | safe}}
+    </body>
+</html>
